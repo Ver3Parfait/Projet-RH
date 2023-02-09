@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>S'enregistrer</title>
+	</head>
+	<body>
+		<form action="/company/register" method="POST">
+			<label for="name">Nom de l'entreprise :</label>
+			<input type="text" name="name" id="name">
+			<label for="siret">Numéro de SIRET :</label>
+			<input type="number" name="siret" id="siret">
+			<label for="ceo">Nom du directeur :</label>
+			<input type="text" name="ceo" id="ceo">
+			<label for="email">E-mail :</label>
+			<input type="email" name="email" id="email">
+			<label for="password">Mot de passe :</label>
+			<input type="password" name="password" id="password">
+            <input type="submit">
+		</form>
+	</body>
+</html>

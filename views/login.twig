@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../css/login.css">
+		<title>S'enregistrer</title>
+	</head>
+	<body>
+		<header></header>
+		<main>
+			<div id="containerForm">
+				<form action="/company/login" method="POST">
+					<label for="email">E-mail de l'entreprise :</label>
+					<input type="text" name="email" id="email">
+					<label for="password">Mot de passe :</label>
+					<input type="password" name="password" id="password">
+					<input id="submitForm" value="Connexion" type="submit">
+				</form>
+				<a href="/company/register">Pas encore enregistrer ?</a>
+				<div>{{message}}</div>
+				<div>{{Id}}</div>
+			</div>
+		</main>
+		<footer></footer>
+	</body>
+</html>
