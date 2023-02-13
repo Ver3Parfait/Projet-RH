@@ -42,7 +42,7 @@ function filterArray(e) {
 
 function displayEmployeeList(employeeList) {
   employeeList.forEach((employee) => {
-    employeeConstructor(employee);
+    employeeConstructor(employee)
   });
   let deleteEmployee = document.querySelectorAll(".deleteEmployee");
   let showForm = document.querySelectorAll(".showForm");
